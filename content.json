@@ -1,0 +1,392 @@
+{
+  "_guide": {
+    "_comment": "求职版网站的内容配置文件。JSON 不支持真正的注释，所以说明写在 _comment / _help 字段里，网页会自动忽略这些说明。",
+    "editing": "修改文字时只改双引号里的内容。修改图片时先把图片放到 assets 文件夹，再把 path 改成 assets/文件名。",
+    "cv": "把英文 CV PDF 放到 assets 文件夹后，将 links.cv.href 改成真实文件路径，例如 assets/Pan-Hu-CV.pdf。",
+    "externalLinks": "Ertha Home、Instagram、LinkedIn 都使用真实外链。发布前请手动点击测试。"
+  },
+  "site": {
+    "language": "en",
+    "title": "Pan Hu | Digital Marketing Coordinator Portfolio",
+    "description": "Pan Hu is a Melbourne-based Digital Marketing Coordinator candidate with project experience across e-commerce websites, SEO/GEO, social media content and campaign execution.",
+    "canonical": "https://hp13306722787-ai.github.io/pan-digital-marketing-portfolio-v2/",
+    "ogImage": "assets/ertha-01-home-page.webp",
+    "skipLink": "Skip to content",
+    "loadingText": "Loading portfolio...",
+    "errorText": "The portfolio content could not be loaded. Please open the site through its local preview server."
+  },
+  "links": {
+    "_comment": "全站重复使用的公开链接。",
+    "cv": { "label": "Download CV", "href": "assets/Pan-Hu-CV.pdf", "download": true },
+    "linkedin": { "label": "LinkedIn", "href": "https://www.linkedin.com/in/panhu-marketing" },
+    "erthaHome": { "label": "Visit Ertha Home", "href": "https://erthahome.com" },
+    "erthaInstagram": { "label": "View Instagram", "href": "https://www.instagram.com/ceramics_ertha" },
+    "email": { "label": "hp13306722787@gmail.com", "href": "mailto:hp13306722787@gmail.com" }
+  },
+  "navigation": {
+    "_comment": "导航文字。Capabilities 的 target 对应页面里的 capabilities 区块。",
+    "brandAriaLabel": "Pan Hu job portfolio home",
+    "primaryLabel": "Primary navigation",
+    "links": [
+      { "label": "Home", "target": "hero" },
+      { "label": "About", "target": "about" },
+      { "label": "Capabilities", "target": "capabilities" },
+      { "label": "Projects", "target": "projects" },
+      { "label": "Contact", "target": "contact" }
+    ],
+    "ctaKey": "cv"
+  },
+  "hero": {
+    "_comment": "首屏求职定位。name、roleLocation 和 descriptionLines 分别控制姓名、职位地点和两行简介；avatar 控制右侧人物贴图。",
+    "sectionLabel": "Home",
+    "ariaTitle": "Hi, I'm Pan. Digital Marketing · Melbourne",
+    "name": "Hi, I'm Pan.",
+    "roleLocation": "Digital Marketing · Melbourne",
+    "avatar": {
+      "path": "assets/hero-pan-avatar-v2-transparent.png",
+      "alt": "Cartoon avatar of Pan holding a coffee and laptop"
+    },
+    "descriptionLines": [
+      "I work across SEO, content and websites,",
+      "driving visibility and growth."
+    ],
+    "actions": [
+      { "label": "View selected work", "target": "projects", "style": "primary" },
+      { "label": "Download CV", "linkKey": "cv", "style": "secondary" }
+    ]
+  },
+  "workPreview": {
+    "_comment": "Hero 下方的横向作品预览。点击会跳转并打开对应的项目模块。",
+    "ariaLabel": "Selected work preview",
+    "label": "Selected work",
+    "category": "SEARCH / SOCIAL / BRAND",
+    "items": [
+      {
+        "target": "projects",
+        "project": "featured",
+        "module": "seo",
+        "image": "assets/ertha-seo-geo-workflow-v2.png",
+        "alt": "Ertha Home SEO and GEO workflow",
+        "title": "SEO & GEO"
+      },
+      {
+        "target": "projects",
+        "project": "featured",
+        "module": "instagram",
+        "image": "assets/ertha-instagram-content-overview-v03.png",
+        "alt": "Ertha Home Instagram content and performance overview",
+        "title": "Content & Social Media"
+      },
+      {
+        "target": "other-work",
+        "project": "other",
+        "module": "module-3",
+        "image": "assets/meipiqi-module3-popup-campaign.png",
+        "alt": "MEI PI QI pop-up campaign and brand activation",
+        "title": "Rebranding & Brand Activation"
+      }
+    ]
+  },
+  "about": {
+    "_comment": "About 需要保持求职身份，使用四个简洁句子。",
+    "sectionLabel": "About",
+    "title": "About",
+    "paragraphs": [
+      "Digital marketer with hands-on experience in SEO and social media content.",
+      "Turning research and insights into practical marketing actions.",
+      "Focused on search visibility, audience growth and brand awareness.",
+      "Ready to contribute to a creative and results-driven marketing team."
+    ],
+    "cta": { "label": "Contact", "target": "contact" }
+  },
+  "capabilities": {
+    "_comment": "原 Services 已改为 Capabilities。每张卡只写能力，不写客户服务承诺。",
+    "sectionLabel": "Capabilities",
+    "title": "MY CAPABILITIES",
+    "subtitle": "What I can do for a brand or business.",
+    "items": [
+      {
+        "number": "01",
+        "title": "SEO & GEO",
+        "description": "Improving search visibility through SEO and content optimisation."
+      },
+      {
+        "number": "02",
+        "title": "Social Media & Content",
+        "description": "Creating content that supports reach, engagement and audience growth."
+      },
+      {
+        "number": "03",
+        "title": "Insights & Research",
+        "description": "Turning consumer and market data into actionable marketing insights."
+      },
+      {
+        "number": "04",
+        "title": "Analytics & Optimisation",
+        "description": "Using performance data to measure results and guide optimisation."
+      }
+    ]
+  },
+  "projects": {
+    "_comment": "Ertha Home 是主案例。四个 tabs 是同一项目里的工作模块，不是四个独立项目。",
+    "sectionLabel": "Projects",
+    "title": "Projects",
+    "subtitle": "Selected work for entry-level digital marketing roles",
+    "featured": {
+      "eyebrow": "Featured case",
+      "title": "Ertha Home",
+      "subtitle": "E-commerce Marketing\nCeramic Homeware Brand",
+      "actions": [
+        { "label": "Visit Ertha Home", "linkKey": "erthaHome", "style": "primary" },
+        { "label": "View Instagram", "linkKey": "erthaInstagram", "style": "secondary" }
+      ],
+      "tabs": [
+        {
+          "id": "seo",
+          "label": "01 SEO & Organic Growth",
+          "image": {
+            "path": "assets/ertha-seo-geo-workflow-v2.png",
+            "alt": "Ertha Home SEO and GEO workflow covering technical audit, keyword research, on-page optimisation and search monitoring",
+            "caption": "SEO / GEO & Content"
+          },
+          "content": {
+            "overview": "Built and implemented an end-to-end SEO strategy for Ertha Home, covering technical SEO, competitor and keyword research, on-page optimisation, and ongoing performance monitoring.",
+            "metrics": [
+              { "value": "123", "label": "Priority Pages Indexed" },
+              { "value": "50+", "label": "Competitors Analysed" },
+              { "value": "+477%", "label": "Search Impressions" },
+              { "value": "+15%", "label": "Organic Clicks" }
+            ],
+            "contributions": [
+              {
+                "title": "01 - Technical SEO",
+                "body": "Used **Google Search Console** and **SEO crawler tools** to audit and improve crawlability, indexability, site structure, redirects, and page performance, with **123 priority pages** successfully indexed by Google."
+              },
+              {
+                "title": "02 - Competitive & Keyword Research",
+                "body": "Used **Google Keyword Planner** and **AI-assisted research tools** to research keywords and analyse **50+ competitor websites**, identifying relevant keywords and search intent, with the site appearing across **93 Google search queries**."
+              },
+              {
+                "title": "03 - On-page SEO",
+                "body": "Optimised on-page SEO across a **Shopify catalogue of 100+ SKUs**, including titles, headings, product and collection content, image alt text, and internal linking, contributing to a **477% increase in Google Search impressions**."
+              },
+              {
+                "title": "04 - Monitoring & Iteration",
+                "body": "Monitored SEO performance through **Google Search Console**, using search data to guide ongoing optimisation, with organic clicks up **15% compared with the previous 28-day period**."
+              }
+            ]
+          }
+        },
+        {
+          "id": "instagram",
+          "label": "02 Content & Social Media",
+          "image": {
+            "path": "assets/ertha-instagram-content-overview-v03.png",
+            "alt": "Instagram content overview and performance analytics for Ertha Home",
+            "caption": "Content & Social Media"
+          },
+          "content": {
+            "overview": "Built Ertha Home's Instagram presence from scratch, developing an organic content strategy focused on visual storytelling, audience growth, and product discovery.",
+            "metrics": [
+              { "value": "6.6K", "label": "Followers in First Month" },
+              { "value": "716K+", "label": "Organic Views" },
+              { "value": "340K", "label": "Top Reel Views" },
+              { "value": "2.5K", "label": "Link Taps" }
+            ],
+            "contributions": [
+              {
+                "title": "01 - Content Strategy",
+                "body": "Developed a consistent content strategy around Ertha Home's collection themes, product storytelling, and audience response, using performance insights to refine content formats and topics."
+              },
+              {
+                "title": "02 - Organic Audience Growth",
+                "body": "Grew the account from zero by **6,000+ followers in the first month**, reaching **8.3K total followers and 716K+ views**, with **87.6% of views coming from non-followers**."
+              },
+              {
+                "title": "03 - Viral Content & Creative Testing",
+                "body": "Produced **multiple high-performing posts and Reels** through ongoing creative testing, including content reaching **340K and 190K views**, with the top-performing Reel generating **31.2K interactions**."
+              },
+              {
+                "title": "04 - Traffic & Optimisation",
+                "body": "Used **Instagram Insights** and **Meta Business Suite** to analyse audience and content performance, generating **2,494 external link taps** and **13K+ profile visits** while guiding ongoing optimisation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "market-research",
+          "label": "03 Market Insights & Research",
+          "image": {
+            "path": "assets/ertha-market-insights-research.png",
+            "alt": "Ertha Home US ceramics market research summary covering search demand, consumer reviews, competitor benchmarking and reporting"
+          },
+          "content": {
+            "overview": "Conducted data-led market research to understand market demand, consumer needs and the competitive landscape of the US ceramics market.",
+            "metrics": [
+              { "value": "200+", "label": "Search Terms Analysed" },
+              { "value": "500+", "label": "Consumer Reviews Analysed" },
+              { "value": "50+", "label": "Competitors Benchmarked" },
+              { "value": "0 → 1", "label": "Market Research Report" }
+            ],
+            "contributions": [
+              {
+                "title": "01 — Market Research",
+                "body": "Used **Google Keyword Planner** and **Google Trends** to analyse **200+ search terms**, identifying category demand, search trends and market opportunities in the US."
+              },
+              {
+                "title": "02 — Consumer Insights",
+                "body": "Used **Python** and **AI-assisted workflows** to analyse **500+ consumer reviews** from Reddit, Etsy and other platforms, identifying recurring needs, preferences and pain points."
+              },
+              {
+                "title": "03 — Competitor Analysis",
+                "body": "Used **Semrush** to benchmark **50+ competitors** across website traffic, search visibility and market positioning."
+              },
+              {
+                "title": "04 — Data Visualisation & Reporting",
+                "body": "Used **AI-assisted workflows** and **Excel** to clean, structure and visualise research data, producing an independent market research report with key findings and recommendations."
+              }
+            ]
+          }
+        },
+        {
+          "id": "website",
+          "label": "04 Website & CMS",
+          "image": {
+            "path": "assets/ertha-website-cms-showcase-v02.png",
+            "alt": "Ertha Home Shopify storefront shown across laptop, tablet and mobile devices"
+          },
+          "content": {
+            "overview": "Designed and built the Ertha Home Shopify storefront from scratch, covering website design, CMS setup, catalogue structure, responsive optimisation, and pre-launch QA.",
+            "metrics": [
+              { "value": "100+", "label": "SKUs Launched" },
+              { "value": "30+", "label": "Storefront Pages Built" },
+              { "value": "30+", "label": "Markets Supported" },
+              { "value": "0 → 1", "label": "Shopify Store Build" }
+            ],
+            "contributions": [
+              {
+                "title": "01 - Website & Visual Design",
+                "body": "Used **Canva** and **AI-assisted design workflows** to develop the website's visual direction, page layouts, banners, and product assets, ensuring a consistent visual identity across the storefront."
+              },
+              {
+                "title": "02 - Shopify CMS & Page Build",
+                "body": "Built and managed **30+ storefront pages** through **Shopify CMS**, including homepage, collection, FAQ, contact, brand content, and policy pages, creating a complete e-commerce storefront from scratch."
+              },
+              {
+                "title": "03 - Catalogue & Site Structure",
+                "body": "Structured and managed **100+ SKUs** across product types and collections, creating clear navigation and browsing paths to make products easier for customers to discover."
+              },
+              {
+                "title": "04 - Responsive QA & Launch",
+                "body": "Tested the storefront across **desktop and mobile**, reviewing navigation, layouts, product listings, and purchase flows, while preparing the store to support customers across **30+ international markets**."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "other": {
+      "_comment": "MEI PI QI 已降级为辅助案例，不再和 Ertha Home 共用主轮播。",
+      "id": "other-work",
+      "eyebrow": "Other selected work",
+      "title": "MEI PI QI",
+      "subtitle": "Rebranding & Brand Campaign",
+      "description": "Research → Positioning → Creative Direction → Brand Activation",
+      "image": {
+        "path": "assets/meipiqi-card-logo-centered-v02.png",
+        "alt": "MEI PI QI circular bayberry brand logo centred on a white background"
+      },
+      "button": "View Project",
+      "closeButton": "Close project",
+      "tabs": [
+        {
+          "id": "module-1",
+          "label": "Insights & Research",
+          "image": {
+            "path": "assets/meipiqi-module1-research.png",
+            "alt": "MEI PI QI consumer insights, competitor landscape and brand direction research summary"
+          },
+          "content": {
+            "overview": "Conducted consumer and competitor research to understand category perceptions, identify market opportunities, and define the strategic direction for the rebrand.",
+            "contributions": [
+              {
+                "title": "01 — Consumer & Keyword Research",
+                "body": "Used **Python-based** word-frequency analysis and visualisation to analyse **572 e-commerce beverage reviews**, identifying key consumer concerns, preferences, and category language."
+              },
+              {
+                "title": "02 — Competitor Research",
+                "body": "Used **Semrush and competitor website analysis** to evaluate competitor positioning, messaging, visual identity, and digital presence, identifying opportunities for brand differentiation."
+              },
+              {
+                "title": "03 — Brand Positioning",
+                "body": "Synthesised consumer and competitor insights to define the brand’s positioning, personality, key messaging, and creative direction for the rebrand."
+              }
+            ]
+          }
+        },
+        {
+          "id": "module-2",
+          "label": "02 — Visual Identity & Packaging",
+          "image": {
+            "path": "assets/meipiqi-module2-design.png",
+            "alt": "MEI PI QI brand identity, IP character development and packaging strategy"
+          },
+          "content": {
+            "overview": "Led the visual and packaging direction for the rebrand, translating brand positioning into clear creative decisions for younger consumers and different usage scenarios.",
+            "contributions": [
+              {
+                "title": "01 — Brand Identity Direction",
+                "body": "Defined the brand’s **core visual direction and identity principles**, establishing how the brand should look and feel across packaging, content, and offline touchpoints."
+              },
+              {
+                "title": "02 — IP Concept & Art Direction",
+                "body": "Defined the **IP concept and creative direction**, combining traditional Chinese opera-inspired elements with bayberry cues to shape a distinctive character for Gen Z audiences."
+              },
+              {
+                "title": "03 — Packaging Design",
+                "body": "Defined a **scenario-based packaging strategy** for outdoor, gifting, and office/study use, selecting formats and materials based on different consumer needs."
+              }
+            ]
+          }
+        },
+        {
+          "id": "module-3",
+          "label": "03 — Pop-up Campaign",
+          "image": {
+            "path": "assets/meipiqi-module3-popup-campaign.png",
+            "alt": "MEI PI QI pop-up experience, IP merchandise and online-to-offline engagement campaign"
+          },
+          "content": {
+            "overview": "Developed a pop-up activation strategy to bring the rebranded identity into physical experiences and strengthen engagement with younger consumers.",
+            "contributions": [
+              {
+                "title": "01 — Pop-up Experience",
+                "body": "Planned a **two-channel store + pop-up activation model**, combining themed offline experiences with social media promotion to drive product discovery, sampling, and sharing."
+              },
+              {
+                "title": "02 — IP Merchandise",
+                "body": "Defined **10+** merchandise categories, including apparel, accessories, collectibles, and lifestyle products, extending the brand beyond beverages and into lifestyle touchpoints."
+              },
+              {
+                "title": "03 — Online-to-Offline Engagement",
+                "body": "Defined an **online-to-offline engagement model** using QR codes, points-based rewards, check-ins, and social sharing, achieving an approximately **25%** visitor-to-member conversion rate."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "contact": {
+    "_comment": "求职向 Contact，保留邮箱和电话，新增 LinkedIn 与 Download CV。",
+    "sectionLabel": "Contact",
+    "eyebrow": "Contact",
+    "title": "Open to digital marketing opportunities.",
+    "subtitle": "Focused on **SEO, content and social media.**",
+    "links": [
+      { "label": "Email", "linkKey": "email", "style": "primary", "icon": "mail" },
+      { "label": "LinkedIn", "linkKey": "linkedin", "style": "secondary", "icon": "linkedin" },
+      { "label": "Download CV", "linkKey": "cv", "style": "secondary", "icon": "download" }
+    ]
+  }
+}
