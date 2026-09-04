@@ -214,43 +214,8 @@
           }
         },
         {
-          "id": "market-research",
-          "label": "03 Market Insights & Research",
-          "image": {
-            "path": "assets/ertha-market-insights-research.png",
-            "alt": "Ertha Home US ceramics market research summary covering search demand, consumer reviews, competitor benchmarking and reporting"
-          },
-          "content": {
-            "overview": "Conducted data-led market research to understand market demand, consumer needs and the competitive landscape of the US ceramics market.",
-            "metrics": [
-              { "value": "200+", "label": "Search Terms Analysed" },
-              { "value": "500+", "label": "Consumer Reviews Analysed" },
-              { "value": "50+", "label": "Competitors Benchmarked" },
-              { "value": "0 → 1", "label": "Market Research Report" }
-            ],
-            "contributions": [
-              {
-                "title": "01 — Market Research",
-                "body": "Used **Google Keyword Planner** and **Google Trends** to analyse **200+ search terms**, identifying category demand, search trends and market opportunities in the US."
-              },
-              {
-                "title": "02 — Consumer Insights",
-                "body": "Used **Python** and **AI-assisted workflows** to analyse **500+ consumer reviews** from Reddit, Etsy and other platforms, identifying recurring needs, preferences and pain points."
-              },
-              {
-                "title": "03 — Competitor Analysis",
-                "body": "Used **Semrush** to benchmark **50+ competitors** across website traffic, search visibility and market positioning."
-              },
-              {
-                "title": "04 — Data Visualisation & Reporting",
-                "body": "Used **AI-assisted workflows** and **Excel** to clean, structure and visualise research data, producing an independent market research report with key findings and recommendations."
-              }
-            ]
-          }
-        },
-        {
           "id": "website",
-          "label": "04 Website & CMS",
+          "label": "03 Website & CMS",
           "image": {
             "path": "assets/ertha-website-cms-showcase-v02.png",
             "alt": "Ertha Home Shopify storefront shown across laptop, tablet and mobile devices"
@@ -279,6 +244,41 @@
               {
                 "title": "04 - Responsive QA & Launch",
                 "body": "Tested the storefront across **desktop and mobile**, reviewing navigation, layouts, product listings, and purchase flows, while preparing the store to support customers across **30+ international markets**."
+              }
+            ]
+          }
+        },
+        {
+          "id": "market-research",
+          "label": "04 Market Insights & Research",
+          "image": {
+            "path": "assets/ertha-market-insights-research.png",
+            "alt": "Ertha Home US ceramics market research summary covering search demand, consumer reviews, competitor benchmarking and reporting"
+          },
+          "content": {
+            "overview": "Conducted data-led market research to understand market demand, consumer needs and the competitive landscape of the US ceramics market.",
+            "metrics": [
+              { "value": "200+", "label": "Search Terms Analysed" },
+              { "value": "500+", "label": "Consumer Reviews Analysed" },
+              { "value": "50+", "label": "Competitors Benchmarked" },
+              { "value": "0 → 1", "label": "Market Research Report" }
+            ],
+            "contributions": [
+              {
+                "title": "01 — Market Research",
+                "body": "Used **Google Keyword Planner** and **Google Trends** to analyse **200+ search terms**, identifying category demand, search trends and market opportunities in the US."
+              },
+              {
+                "title": "02 — Consumer Insights",
+                "body": "Used **Python** and **AI-assisted workflows** to analyse **500+ consumer reviews** from Reddit, Etsy and other platforms, identifying recurring needs, preferences and pain points."
+              },
+              {
+                "title": "03 — Competitor Analysis",
+                "body": "Used **Semrush** to benchmark **50+ competitors** across website traffic, search visibility and market positioning."
+              },
+              {
+                "title": "04 — Data Visualisation & Reporting",
+                "body": "Used **AI-assisted workflows** and **Excel** to clean, structure and visualise research data, producing an independent market research report with key findings and recommendations."
               }
             ]
           }
