@@ -39,9 +39,9 @@
   "hero": {
     "_comment": "首屏求职定位。name、roleLocation 和 descriptionLines 分别控制姓名、职位地点和两行简介；avatar 控制右侧人物贴图。",
     "sectionLabel": "Home",
-    "ariaTitle": "Hi, I'm Pan. Digital Marketing · Melbourne",
+    "ariaTitle": "Hi, I'm Pan. Digital Marketer · Melbourne",
     "name": "Hi, I'm Pan.",
-    "roleLocation": "Digital Marketing · Melbourne",
+    "roleLocation": "Digital Marketer · Melbourne",
     "avatar": {
       "path": "assets/hero-pan-avatar-v2-transparent.png",
       "alt": "Cartoon avatar of Pan holding a coffee and laptop"
