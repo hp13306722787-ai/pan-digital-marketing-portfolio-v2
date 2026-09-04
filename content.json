@@ -382,7 +382,7 @@
     "sectionLabel": "Contact",
     "eyebrow": "Contact",
     "title": "Open to digital marketing opportunities.",
-    "subtitle": "Focused on **SEO, content and social media.**",
+    "subtitle": "Focused on **SEO, social media and e-commerce.**",
     "links": [
       { "label": "Email", "linkKey": "email", "style": "primary", "icon": "mail" },
       { "label": "LinkedIn", "linkKey": "linkedin", "style": "secondary", "icon": "linkedin" },
