@@ -1279,6 +1279,17 @@ details[open] summary {
   font-weight: 600;
 }
 
+.footer-note {
+  width: min(1080px, 100%);
+  margin: 18px auto 0;
+  color: rgba(219, 228, 240, 0.62);
+  font-family: "Segoe UI", "Noto Sans SC", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);

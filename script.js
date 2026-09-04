@@ -435,6 +435,7 @@ function renderContact(content) {
         <p class="contact-support">${renderStrongText(content.contact.subtitle)}</p>
         <div class="contact-actions">${links}</div>
       </div>
+      <p class="footer-note">${escapeHtml(content.contact.footerNote)}</p>
     </footer>`;
 }
 

@@ -383,6 +383,7 @@
     "eyebrow": "Contact",
     "title": "Open to digital marketing opportunities.",
     "subtitle": "Focused on **SEO, social media and e-commerce.**",
+    "footerNote": "Designed by Pan · 2026 | No user interactions tracked | Privacy-first",
     "links": [
       { "label": "Email", "linkKey": "email", "style": "primary", "icon": "mail" },
       { "label": "LinkedIn", "linkKey": "linkedin", "style": "secondary", "icon": "linkedin" },
