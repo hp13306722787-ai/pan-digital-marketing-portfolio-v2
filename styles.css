@@ -1586,7 +1586,7 @@ details[open] summary {
 
   .featured-intro {
     grid-template-columns: minmax(0, 1fr) auto;
-    column-gap: 18px;
+    column-gap: 12px;
     row-gap: 30px;
   }
 
@@ -1612,6 +1612,7 @@ details[open] summary {
   .featured-copy h3 {
     width: 5ch;
     margin-left: auto;
+    font-size: clamp(1.85rem, 9vw, 2.5rem);
     line-height: 0.94;
     white-space: normal;
   }
