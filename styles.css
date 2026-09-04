@@ -1473,19 +1473,39 @@ details[open] summary {
     padding: 108px 16px 54px;
   }
 
+  .hero-inner {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .hero-copy {
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+  }
+
   .hero-title {
+    margin-inline: auto;
     font-size: clamp(2.2rem, 10vw, 3.25rem);
   }
 
   .hero-role {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 26px;
     font-size: 1.05rem;
   }
 
   .hero-lede {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 22px;
     font-size: 1rem;
     max-width: 30rem;
+  }
+
+  .hero-actions {
+    justify-content: center;
   }
 
   .hero-actions .button {
@@ -1562,6 +1582,43 @@ details[open] summary {
 
   .featured-case {
     padding: 18px;
+  }
+
+  .featured-intro {
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 18px;
+    row-gap: 30px;
+  }
+
+  .featured-meta {
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    text-align: left;
+  }
+
+  .featured-meta .case-subtitle {
+    margin-inline: 0;
+    white-space: pre-line;
+  }
+
+  .featured-copy {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: start;
+    text-align: right;
+  }
+
+  .featured-copy h3 {
+    width: 5ch;
+    margin-left: auto;
+    line-height: 0.94;
+    white-space: normal;
+  }
+
+  .featured-intro .external-actions {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
 
   .featured-intro h3,
