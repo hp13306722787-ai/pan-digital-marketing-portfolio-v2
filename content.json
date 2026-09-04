@@ -59,7 +59,7 @@
     "_comment": "Hero 下方的横向作品预览。点击会跳转并打开对应的项目模块。",
     "ariaLabel": "Selected work preview",
     "label": "Selected work",
-    "category": "SEARCH / SOCIAL / BRAND",
+    "category": "SEO / SOCIAL / E-COMMERCE",
     "items": [
       {
         "target": "projects",
