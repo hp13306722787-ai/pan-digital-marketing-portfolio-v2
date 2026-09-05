@@ -1230,7 +1230,7 @@ details[open] summary {
 }
 
 .contact {
-  padding: clamp(78px, 10vw, 130px) 24px;
+  padding: clamp(78px, 10vw, 130px) 24px 24px;
 }
 
 .contact-card {
