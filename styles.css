@@ -1616,7 +1616,7 @@ details[open] summary {
   .featured-copy {
     grid-column: 2;
     grid-row: 1;
-    align-self: start;
+    align-self: end;
     text-align: right;
   }
 
