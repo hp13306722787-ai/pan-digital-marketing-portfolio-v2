@@ -73,7 +73,7 @@
         "target": "projects",
         "project": "featured",
         "module": "instagram",
-        "image": "assets/ertha-instagram-content-overview-v03.png",
+        "image": "assets/ertha-instagram-content-overview-v04.png",
         "alt": "Ertha Home Instagram content and performance overview",
         "title": "Content & Social Media"
       },
@@ -181,7 +181,7 @@
           "id": "instagram",
           "label": "02 Content & Social Media",
           "image": {
-            "path": "assets/ertha-instagram-content-overview-v03.png",
+            "path": "assets/ertha-instagram-content-overview-v04.png",
             "alt": "Instagram content overview and performance analytics for Ertha Home",
             "caption": "Content & Social Media"
           },
