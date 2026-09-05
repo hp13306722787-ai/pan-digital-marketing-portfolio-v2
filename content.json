@@ -78,12 +78,12 @@
         "title": "Content & Social Media"
       },
       {
-        "target": "other-work",
-        "project": "other",
-        "module": "module-3",
-        "image": "assets/meipiqi-module3-popup-campaign.png",
-        "alt": "MEI PI QI pop-up campaign and brand activation",
-        "title": "Rebranding & Brand Activation"
+        "target": "projects",
+        "project": "featured",
+        "module": "website",
+        "image": "assets/ertha-website-cms-showcase-v02.png",
+        "alt": "Ertha Home Shopify website and e-commerce storefront",
+        "title": "Website & E-commerce"
       }
     ]
   },
