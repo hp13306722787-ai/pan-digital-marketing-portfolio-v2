@@ -1702,6 +1702,13 @@ details[open] summary {
   }
 }
 
+@media (min-width: 500px) and (max-width: 640px) {
+  .contact-card {
+    position: relative;
+    top: -20px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
