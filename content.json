@@ -75,7 +75,7 @@
         "module": "instagram",
         "image": "assets/ertha-instagram-content-overview-v04.png",
         "alt": "Ertha Home Instagram content and performance overview",
-        "title": "Content & Social Media"
+        "title": "Social Media & Content"
       },
       {
         "target": "projects",
@@ -183,7 +183,7 @@
           "image": {
             "path": "assets/ertha-instagram-content-overview-v04.png",
             "alt": "Instagram content overview and performance analytics for Ertha Home",
-            "caption": "Content & Social Media"
+            "caption": "Social Media & Content"
           },
           "content": {
             "overview": "Built the brand’s Instagram presence from the ground up, developing an organic content strategy focused on visual storytelling, audience growth and product discovery.",
