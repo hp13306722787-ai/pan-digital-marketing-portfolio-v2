@@ -301,7 +301,7 @@
       "tabs": [
         {
           "id": "module-1",
-          "label": "Insights & Research",
+          "label": "01 Insights & Research",
           "image": {
             "path": "assets/meipiqi-module1-research.png",
             "alt": "MEI PI QI consumer insights, competitor landscape and brand direction research summary"
@@ -326,7 +326,7 @@
         },
         {
           "id": "module-2",
-          "label": "02 — Visual Identity & Packaging",
+          "label": "02 Visual Identity & Packaging",
           "image": {
             "path": "assets/meipiqi-module2-design.png",
             "alt": "MEI PI QI brand identity, IP character development and packaging strategy"
@@ -351,7 +351,7 @@
         },
         {
           "id": "module-3",
-          "label": "03 — Pop-up Campaign",
+          "label": "03 Pop-up Campaign",
           "image": {
             "path": "assets/meipiqi-module3-popup-campaign.png",
             "alt": "MEI PI QI pop-up experience, IP merchandise and online-to-offline engagement campaign"
