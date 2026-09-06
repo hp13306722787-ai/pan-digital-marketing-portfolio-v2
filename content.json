@@ -190,8 +190,8 @@
             "metrics": [
               { "value": "6.6K", "label": "Followers in First Month" },
               { "value": "784K+", "label": "Organic Views" },
-              { "value": "350K+", "label": "Top Reel Views" },
-              { "value": "69.2K", "label": "Content Interactions" }
+              { "value": "+570%", "label": "Gross Sales" },
+              { "value": "+400%", "label": "Orders" }
             ],
             "contributions": [
               {
@@ -200,7 +200,7 @@
               },
               {
                 "title": "02 — Organic Audience Growth",
-                "body": "Grew the account to **6.6K followers in the first month**, generating **784K organic views** and reaching **444K accounts** through organic content."
+                "body": "Grew the account to **6.6K followers in the first month** and generated **784K organic views**, while gross sales increased by **570%**, orders by **400%**, and the conversion rate by **102%**."
               },
               {
                 "title": "03 — Creative Testing",
