@@ -1702,10 +1702,17 @@ details[open] summary {
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 640px) {
   .contact-card {
     position: relative;
     top: -20px;
+  }
+}
+
+@media (min-width: 641px) {
+  .contact-card {
+    position: relative;
+    top: -60px;
   }
 }
 
